@@ -56,9 +56,6 @@ class Home extends GetView<AppController> {
                 )
               ],
             ),
-            const SizedBox(
-              height: 20,
-            ),
             const DescribedFeatureOverlay(
                 featureId: 'movie_list',
                 tapTarget: Icon(
@@ -70,7 +67,10 @@ class Home extends GetView<AppController> {
                     "A list of your watched movies.\nWant to delete a movie? \nSimply slide to dismiss it."),
                 backgroundColor: Colors.green,
                 contentLocation: ContentLocation.below,
-                child: MoviesList())
+                child: SizedBox(
+                  height: 20,
+                )),
+            const MoviesList()
           ],
         ),
       );

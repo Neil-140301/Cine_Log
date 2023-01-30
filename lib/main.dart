@@ -26,7 +26,7 @@ class CineLogApp extends StatelessWidget {
   Widget build(BuildContext context) {
     Get.lazyPut(() => AppController());
     return FeatureDiscovery(
-      sharedPreferencesPrefix: 'cine_log_features',
+      recordStepsInSharedPreferences: true,
       child: GetMaterialApp(
         title: 'Cine Log',
         debugShowCheckedModeBanner: false,
