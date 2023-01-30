@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "712075030687",
+    "project_id": "cinelog-dfcbe",
+    "storage_bucket": "cinelog-dfcbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712075030687:android:bcb43a3846680c88efb2aa",
+        "android_client_info": {
+          "package_name": "com.example.cine_log"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712075030687-9cnn21ecu8q0bichhs8nu2i9a0stoh1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCNBb7eOcZwydLFka49MYeYuxseYZiCm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712075030687-0d3u4ra0ap92s2e4ef43f67ovdmsi11j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
